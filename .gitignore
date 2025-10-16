@@ -11,6 +11,7 @@
 .idea/
 *.iml
 .vscode/
+src/jdbc/
 
 # 기타
 *.log
