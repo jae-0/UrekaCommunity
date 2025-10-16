@@ -1,4 +1,4 @@
-# 유레카 익명 커뮤니티 (EUREKA Anonymous Community)
+# 유레카 익명 커뮤니티 (U+REKA Anonymous Community)
 
 유플러스 유레카 3기 미니 프로젝트 – **수강생 전용 커뮤니티**  
 수업 관련 Q&A, 자유게시판, 익명 댓글/대댓글, 내가 쓴 글/댓글 모아보기 기능을 제공합니다.  
