@@ -9,9 +9,9 @@ import java.sql.SQLException;
 // DB 연결
 // Resource Release
 public class DBManager {
-	static String url = "jdbc:mysql://localhost:3306/miniproject";
-	static String user = "root";
-	static String pwd = "root";
+	static String url = "";
+	static String user = "";
+	static String pwd = "";
 	
 	public static Connection getConnection() {
 		Connection con = null;
