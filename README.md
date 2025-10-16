@@ -37,8 +37,7 @@ Java **Swing** + **MySQL** + 간단한 DAO 레이어로 구성했습니다.
 - Language: **Java 17+**
 - UI: **Swing**
 - DB: **MySQL 8.x**
-- 빌드: Maven 또는 Gradle
-- 기타: JDBC, DAO 패턴
+- 기타: JDBC, DAO
 
 ---
 
