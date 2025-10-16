@@ -6,16 +6,8 @@ Java **Swing** + **MySQL** + 간단한 DAO 레이어로 구성했습니다.
 
 ## 목차
 - [핵심 기능](#핵심-기능)
-- [스크린샷](#스크린샷)
-- [아키텍처--erd](#아키텍처--erd)
 - [기술 스택](#기술-스택)
 - [프로젝트 구조](#프로젝트-구조)
-- [로컬 환경 구성](#로컬-환경-구성)
-- [실행 방법](#실행-방법)
-- [주요 사용법](#주요-사용법)
-- [개발 메모](#개발-메모)
-- [향후 개선 아이디어](#향후-개선-아이디어)
-- [라이선스](#라이선스)
 
 ---
 
@@ -40,31 +32,6 @@ Java **Swing** + **MySQL** + 간단한 DAO 레이어로 구성했습니다.
   - 공통 컬러 토큰(`ui.Colors`)로 일관된 스타일
 
 ---
-<!--
-## 스크린샷
-
-
-> 저장소의 `img/` 폴더에 캡처를 추가한 뒤 아래처럼 링크하세요.
->
-> - 로그인: `![Login](img/login.png)`
-> - 게시판 목록: `![Boards](img/boards.png)`
-> - 글 상세/댓글: `![PostDetail](img/post_detail.png)`
-> - 내 활동: `![ActivityBoard](img/activity.png)`
-
----
-
-## 아키텍처 & ERD
-
-- 3-Layer(대략): **UI(Swing)** ↔ **DAO(JDBC)** ↔ **MySQL**
-- 주요 테이블: `users`, `boards`, `posts`, `comments`, `post_anon_map`
-  - `post_anon_map`: (post_id, user_id)별 **고정 익명번호**(anon_index) 저장
-- 댓글 트리: `comments.parent_id`를 이용해 UI에서 DFS로 렌더
-
-> ERD 이미지는 `docs/erd.png`로 추가 후:  
-> `![ERD](docs/erd.png)`
-
----
--->
 ## 기술 스택
 
 - Language: **Java 17+**
